@@ -134,7 +134,7 @@
 
         <section class="tech-grid">
             <div class="tech-card">
-                <h3>💾 The 3.5" Floppy Disk</h3>
+                <h3><a href="floppy.html" style="color: white;">💾 The 3.5" Floppy Disk (Click for Details)</a></h3>
                 <p>Boasting a staggering 1.44 MB of data storage! It held your school essays, pixelated bitmap images, and maybe a text-based game. Today, it survives exclusively as the universal 'Save' icon.</p>
             </div>
 
