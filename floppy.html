@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floppy Disk Spotlight</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #008080; /* Windows 95 Teal */
+            color: #000000;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(90deg, #800080, #ff00ff); /* Cyber-purple 90s gradient */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border: 3px outset #fff;
+            margin-bottom: 20px;
+            box-shadow: 5px 5px 0px #000;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            text-shadow: 2px 2px #000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #c0c0c0; /* Classic Grey */
+            border: 4px outset #fff;
+            padding: 20px;
+            box-shadow: 8px 8px 0px #000;
+        }
+        .content-box {
+            background-color: #fff;
+            border: 3px inset #808080;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #000080;
+            margin-bottom: 15px;
+            border-bottom: 2px dashed #000080;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        /* Retro Data Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+            border: 3px inset #808080;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #808080;
+        }
+        th {
+            background-color: #000080;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #e0e0e0;
+        }
+        .warning-zone {
+            border: 2px dashed #ff0000;
+            background-color: #ffffcc;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        .nav-links {
+            text-align: center;
+            margin-top: 25px;
+        }
+        .btn-back {
+            display: inline-block;
+            background-color: #c0c0c0;
+            color: #000;
+            padding: 8px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 3px outset #fff;
+            box-shadow: 3px 3px 0px #000;
+        }
+        .btn-back:active {
+            border: 3px inset #fff;
+            box-shadow: none;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #fff;
+            text-shadow: 1px 1px #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>💾 Deep Dive: The 3.5" Floppy Disk</h1>
+    </header>
+
+    <div class="container">
+        <div class="content-box">
+            <h2>The King of 90s Storage</h2>
+            <p>Before cloud storage, USB thumb drives, or even rewriteable CDs, the <strong>3.5-inch High-Density Floppy Disk</strong> was how data moved from computer to computer. Introduced by Sony in the 1980s, it reached its peak cultural dominance in the mid-to-late 1990s.</p>
+            
+            <p>Ironically, despite being called "floppy," the 3.5-inch variety was housed in a rigid plastic shell. The name was a leftover legacy from its predecessor, the truly flexible 5.25-inch and 8-inch disks.</p>
+        </div>
+
+        <div class="content-box">
+            <h2>Technical Specifications</h2>
+            <p>To put things into perspective for the modern user, here is what a premium, top-of-the-line 3.5" disk offered in 1995:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Standard Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Formatted Capacity</strong></td>
+                        <td>1.44 MB (Megabytes)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Physical Size</strong></td>
+                        <td>90mm x 94mm x 3.3mm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Write-Protection</strong></td>
+                        <td>Physical sliding tab in the corner</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Average File Capacity</strong></td>
+                        <td>~1 text document or 1 low-res JPEG image</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="warning-zone">
+                <strong>⚠️ VINTAGE TECH TIP:</strong> Keep your floppy disks away from magnets, speakers, and CRT monitors! One accidental swipe near a magnetic field could corrupt your entire school project.
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html" class="btn-back">⬅️ BACK TO HOMEPAGE</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Page created using standard HTML4 block-level formatting. Certified Y2K compliant.</p>
+    </footer>
+
+</body>
+</html>
